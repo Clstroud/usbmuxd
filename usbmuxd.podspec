@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
  s.name = "usbmuxd"
- s.version = "1.0.0" 
+ s.version = "0.0.1" 
  s.summary = "'usbmuxd' stands for \"USB multiplexing daemon\". This daemon is in charge of
 multiplexing connections over USB to an iPhone or iPod touch."
 
@@ -18,7 +18,7 @@ LICENSE
  s.author = 'Chris Stroud' 
  s.platform = :osx, '10.7' 
  s.source = { :git => "https://github.com/Clstroud/usbmuxd.git", :tag => "v#{s.version}"}
- s.source_files = 'libusbmuxd/*.{h,c,m,cpp}', 'include/*.h', 'common/*.{h,c,m,cpp}'
+ s.source_files = 'libusbmuxd/*.{h,m}', 'include/*.h', 'common/*.{h,m}', 'daemon/*.{h,m}'
  s.public_header_files = 'libusbmuxd/usbmuxd.h'
 
 end
