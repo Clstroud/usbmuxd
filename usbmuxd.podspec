@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
  s.name = "usbmuxd"
- s.version = "0.0.1" 
+ s.version = "1.0.0" 
  s.summary = "'usbmuxd' stands for \"USB multiplexing daemon\". This daemon is in charge of
 multiplexing connections over USB to an iPhone or iPod touch."
 
